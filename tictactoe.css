@@ -1,0 +1,39 @@
+#board div {
+  float: left;
+  box-sizing: border-box;
+  height: 160px;
+  width: 160px;
+  display: inline-block;
+  margin: 3px;
+  font-size: 3em;
+  text-align: center;
+  line-height: 120px;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color:yellowgreen;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#board div:nth-child(3n+1) {
+  clear: both;
+}
+
+.endgame{
+  display: none;
+  width:200px;
+  top:120px;
+  background-color:rgba(205,133,63,0.8);
+  position:absolute;
+  left: 50%;
+  margin-left:-100px;
+  padding-top:50px;
+  padding-bottom:50px;
+  text-align:center;
+  border-radius:5px;
+  color:white;
+  font-size:2em;
+
+
+}
+

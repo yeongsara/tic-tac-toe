@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tictactoe.css" />
+</head>
+
+<body>
+    <h1>Tic-tac-toe</h1>
+
+    <div id="board">
+        <div id="0" class="box"></div>
+        <div id="1" class="box"></div>
+        <div id="2" class="box"></div>
+
+        <div id="3" class="box"></div>
+        <div id="4" class="box"></div>
+        <div id="5" class="box"></div>
+
+        <div id="6" class="box"></div>
+        <div id="7" class="box"></div>
+        <div id="8" class="box"></div>
+    </div>
+
+    //to display who is the winner of the game
+
+    <div class="endgame">
+        <div class="text"></div>
+
+        //a button for player to reset the game at the endgame
+        <button onClick="startGame()">Replay</button>
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+
+</html>
